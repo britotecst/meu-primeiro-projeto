@@ -1,0 +1,87 @@
+
+# Criado por https://www.gitignore.io/api/intellij
+# Editar em https://www.gitignore.io/?templates=intellij
+
+### Intellij ###
+# Capas JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Estúdio Android e WebStorm
+# Referência: https://intellij-support.jetbrains.com/hc/pt-br/articles/206544839
+
+# Material específico do usuário
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.idea / ** / usage.statistics.xml
+.idea / ** / dicionários
+.idea / ** / prateleira
+
+# Arquivos gerados
+.idea / ** / contentModel.xml
+
+# Arquivos sensíveis ou de alta rotatividade
+.idea / ** / dataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+.idea / ** / dbnavigator.xml
+
+# Gradle
+.idea / ** / gradle.xml
+.idea / ** / libraries
+
+# Gradle e Maven com importação automática
+# Ao usar Gradle ou Maven com importação automática, você deve excluir arquivos de módulo,
+# uma vez que eles serão recriados e podem causar rotatividade. Uncomment se usando
+# importação automática.
+# .idea / modules.xml
+# .idea / *. iml
+# .idea / modules
+
+# CMake
+cmake-build - * /
+
+# Plugin do Mongo Explorer
+.idea / ** / mongoSettings.xml
+
+# Formato de projeto baseado em arquivo
+* .iws
+
+# IntelliJ
+Fora/
+
+# plugin mpeltonen / sbt-idea
+.idea_modules /
+
+# Plugin JIRA
+atlassian-ide-plugin.xml
+
+# Plug-in Cursive Clojure
+.idea / replstate.xml
+
+# Plug-in Crashlytics (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Cliente de descanso baseado em editor
+.idea / httpRequests
+
+# Android Studio 3.1 + arquivo de cache serializado
+.idea / caches / build_file_checksums.ser
+
+# Modelos JetBrains
+** ___ jb_tmp___
+
+### Intellij Patch ###
+# Motivo do comentário: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# * .iml
+# modules.xml
+# .idea / misc.xml
+# * .ipr
+
+# Plugin do Sonarlint
+.idea / sonarlint
+
+# Fim de https://www.gitignore.io/api/intellij
